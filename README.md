@@ -13,7 +13,7 @@ CSS3: For styling and creating visually appealing layouts.
 Font Awesome: To include professional-grade icons.
 How to Use
 Clone the repository:
-git clone https://github.com/yashsinghal1234/adornment-events.git  
+git clone https://yashsinghal1234.github.io/Adornment_Events/ 
 Open index.html in your browser to view the website.
 Future Improvements
 Enhance accessibility features for broader usability.
