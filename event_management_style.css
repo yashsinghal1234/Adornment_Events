@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 * {
     margin: 0;
@@ -73,8 +72,10 @@ body {
 .gallery-container {
     display: flex;
     gap: 1rem;
+    height: 500px;
     max-width: 100vw;
     overflow-x: auto;
+    align-items: center;
 }
 .gallery-item {
     flex: 0 0 auto;
@@ -85,12 +86,12 @@ body {
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 .gallery-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 .element2{
     height: 100%;
     margin: 0 auto;
@@ -252,14 +253,97 @@ body {
 .crown{
     vertical-align: middle; 
     display: inline-block;
-    padding-left: 400px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 400px;
+    padding: 50px 386px;
     background-color: #bcc4bf82;
 }
 .owner{
     background-color: #bcc4bf82;
+}
+#form-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-image: url('https://adornmentevents.com/wp-content/uploads/home-hero-bg.jpg');
+    background-size: cover;
+}
+.form-container {
+    background: #ffffff;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+}
+.form-container h1 {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: #d4af37;
+    margin-bottom: 20px;
+    font-family: 'great vibes',sans-serif;
+}
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+}
+.form-container label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Quicksand';
+    color: #333333c7;
+    font-weight: 400 !important;
+    font-size: 16px;
+}
+.form-container input, .form-container textarea, .form-container select {
+    
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+.form-container input:focus, .form-container textarea:focus, .form-container select:focus {
+    outline: none;
+    border: 2px solid #afafaf;
+}
+.form-container textarea {
+    resize: vertical;
+    height: 100px;
+}
+.form-container .checkbox-group {
+    display: flex;
+    flex-direction: column;
+}
+.form-container .checkbox-group input {
+    margin-bottom: -10px;
+    height: 14px;
+}
+.form-container .checkbox-group label {
+    font-weight: normal;
+}
+.form-container button {
+    padding: 10px;
+    background-color: #d4af37;
+    border: none;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form-container div a{
+    text-decoration: none;
+}
+.form-container button:hover {
+    background-color: #b79530;
 }
 .foot{
     background-color: #333333;
@@ -294,7 +378,6 @@ body {
 }
 .btn{
     background-color: rgb(0, 104, 160);
-    transition: all .1s ease-in;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -302,4 +385,4 @@ body {
     font-size: 13px;
     line-height: 1.5;
     cursor: pointer;
-}
+} 
